@@ -1,0 +1,12 @@
+package {{packageName}}
+
+import (
+    "net/http"
+)
+
+// {{functionName}} handles HTTP requests for the {{routeName}} route
+func {{functionName}}(w http.ResponseWriter, r *http.Request) {
+    // TODO: Implement the handler logic
+    w.WriteHeader(http.StatusOK)
+    w.Write([]byte("Hello, this is {{functionName}}"))
+}

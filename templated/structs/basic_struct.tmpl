@@ -1,0 +1,16 @@
+package {{packageName}}
+
+// {{structName}} represents a basic structure
+type {{structName}} struct {
+    // Fields of the struct
+    Field1 string
+    Field2 int
+}
+
+// New{{structName}} creates a new instance of {{structName}}
+func New{{structName}}(field1 string, field2 int) *{{structName}} {
+    return &{{structName}}{
+        Field1: field1,
+        Field2: field2,
+    }
+}
